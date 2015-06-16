@@ -195,7 +195,7 @@ void hogSVMTrain( HOGDescriptor &myHOG,bool TRAIN,bool HORZ)
   //myHOG_vertical.setSVMDetector(HOGDescriptor::getDefaultPeopleDetector());
 
   //保存检测子参数到文件
-  ofstream fout("src//HOGDetectorForOpenCV_BenchMark.txt");
+  ofstream fout("HOGDetectorForOpenCV_BenchMark.txt");
   for(int i=0; i<myDetector.size(); i++)
   {
     fout<<myDetector[i]<<endl;
@@ -384,7 +384,7 @@ void hogSVMTrain( HOGDescriptor &myHOG,bool TRAIN,bool HORZ)
   //myHOG_vertical.setSVMDetector(HOGDescriptor::getDefaultPeopleDetector());
 
   //保存检测子参数到文件
-  ofstream fout("src//HOGDetectorForOpenCV_horz.txt");
+  ofstream fout("HOGDetectorForOpenCV_horz.txt");
   for(int i=0; i<myDetector.size(); i++)
   {
     fout<<myDetector[i]<<endl;
