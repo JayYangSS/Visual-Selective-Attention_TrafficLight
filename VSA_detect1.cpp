@@ -135,8 +135,8 @@ int main()
 		CvCapture* g_capture=NULL;
 		IplImage* frame=NULL;
 		vector<Rect> found_filtered;
-		g_capture=cvCreateFileCapture("D:\\JY\\JY_TrainingSamples\\light2.avi");
-	
+
+		g_capture=cvCreateFileCapture("D:\\JY\\JY_TrainingSamples\\TrafficSignVideo\\trafficSign6.avi");
 		while (1)
 		{
 		
